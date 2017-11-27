@@ -15,7 +15,7 @@ count(db, { gt: 'prefix' }, (err, c) => {
 Count continuously:
 
 ```js
-count.live(db, { gt: 'prefix })
+count.live(db, { gt: 'prefix' })
 count.on('value', c => {
   // ...
 })
