@@ -15,11 +15,11 @@ count(db, { gt: 'prefix' }, (err, c) => {
 Count continuously:
 
 ```js
-count.live(db, { gt: 'prefix' })
-count.on('value', c => {
+const counts = count.live(db, { gt: 'prefix' })
+counts.on('value', c => {
   // ...
 })
-const c = count.get()
+const c = counts.get()
 ```
 
 ## Installation
