@@ -1,6 +1,6 @@
 {
   "name": "level-count",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "voltraco/level-count",
   "description": "Count the KV pairs in a range, with live mode",
